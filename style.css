@@ -1,0 +1,80 @@
+body{
+    background-color:  hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+
+}
+.text-header{
+    font-family: Textheader;
+    color: white;
+}
+.text-three{
+    font-family: Textthree;
+    margin-top: -10px;
+    color: hsl(75, 94%, 57%);
+}
+@font-face{
+    font-family: "MyCustomFont";
+    src: url("fonts/static/Inter-Regular.ttf");
+}
+@font-face{
+    font-family: "Textheader";
+    src: url("fonts/static/Inter-Bold.ttf");
+}
+@font-face{
+    font-family: "Textthree";
+    src: url("fonts/static/Inter-SemiBold.ttf");
+}
+.main-wrapper{
+    width: 330px;
+    height: 500px;
+    background-color: hsl(0, 0%, 20%);
+ margin-top: 5%; 
+ border-radius: 15px;  
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.img-one{
+    border-radius: 90%;
+    width: 90px;
+    margin-top: 25px;
+}
+.text-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.text-link{
+    border: solid hsl(0, 0%, 12%)1px;
+    height: 35px;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 5px;
+    
+}
+.text-item{
+    margin-top: -15px;
+}
+.text-item a{
+    text-decoration: none;
+    margin-top: 15px;
+    font-family: Textthree;
+    color: hsl(0, 0%, 100%);
+}
+.text-two{
+    margin-top: -5px;
+   font-family: MyCustomFont;
+   color: hsl(0, 0%, 100%);
+}
+@media (min-width: 375px) and (max-width: 430px){
+ .main-wrapper{
+    justify-content: center;
+    margin-top: 30%;
+ }
+}
